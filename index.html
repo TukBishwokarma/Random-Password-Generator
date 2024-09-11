@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7432e1cc6c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Generate a <br> <span>Random Password</span></h1>
+        <div class="display">
+            <input type="text" id="password" placeholder="Your password will appear here" readonly>
+            <i class="fa-solid fa-copy" id="copy-icon" title="Copy to Clipboard"  onclick="copyPassword()"></i>
+        </div>
+        <button id="generate-btn" onclick="createPassword()"><i class="fa-brands fa-free-code-camp"   ></i>Generate Password</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
